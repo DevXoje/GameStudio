@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+#header {
+  width: 100%;
+  height: 120px;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2px;
+}
+
+#header .header-image {
+  margin-top: 12px;
+  margin-right: 14px;
+}
+
+#header #navegador {
+  width: 46%;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  background-color: black;
+}
+
+#header #navegador .fas.fa-star {
+  padding: 12px;
+  padding-top: 8px;
+  background-color: crimson;
+  height: 35px;
+  font-size: 1.5em;
+}
+
+#header #navegador #nav_juegos,
+#header #navegador #nav_redes {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header #navegador #nav_juegos {
+  width: 80%;
+  border: 2px solid black;
+}
+
+#header #navegador #nav_redes {
+  width: 20%;
+  background-color: crimson;
+}
+
+.content {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+
+#shop-ads {
+  width: 100%;
+  height: 200px;
+  background-color: rebeccapurple;
+}
+
+#main-footer {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+/*# sourceMappingURL=styles.css.map */
